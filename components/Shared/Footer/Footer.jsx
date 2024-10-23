@@ -6,11 +6,11 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <footer className="flex flex-col md:px-20  bg-gradient-to-t from-green-950 to-bg_black pt-12 pb-10">
-            <div className="flex-grow grid mb-8 px-8  sm:px-24 sm:flex sm:justify-between space-y-4 sm:space-y-0">
-                <div className="pr-7 sm:pr-0">
+        <footer className="flex flex-col md:px-20 bg-gradient-to-t from-green-950 to-bg_black pt-12 pb-10">
+            <div className="flex-grow grid mb-8 px-8 sm:px-24 sm:flex sm:justify-between sm:items-center space-y-4 sm:space-y-0">
+                <div className="pr-7 sm:pr-0 text-center sm:text-left">
                     <img
-                        className="h-[45px] md:h-[60px]"
+                        className="h-[45px] md:h-[60px] mx-auto sm:mx-0"
                         src="Logo.png"
                         alt="Logo"
                     />
@@ -23,12 +23,12 @@ const Footer = () => {
                     <p className="text-zinc-400 font-dmSans">India</p>
                 </div>
 
-                <div className=" text-white">
-                    <h className="flex text-center items-center font-poppins mb-1  md:items-start">
+                <div className="text-white text-center">
+                    <h className="flex justify-center font-poppins mb-1 sm:justify-start">
                         Follow Us On
                     </h>
 
-                    <div className="flex space-x-3">
+                    <div className="flex justify-center space-x-3">
                         <a
                             href="https://www.linkedin.com/company/githubsrm/mycompany/"
                             target="_blank"
@@ -61,7 +61,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <p className="text-left pl-8 sm:text-center mt-1 sm:mt-8 mb-0 text-white font-poppins font-medium">
+            <p className="text-center mt-1 sm:mt-8 mb-0 text-white font-poppins font-medium">
                 Created By GCSRM Team 🐐
             </p>
         </footer>

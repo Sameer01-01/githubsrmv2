@@ -1,5 +1,5 @@
 import React from "react";
-
+//we have to remove this after some time
 const EmailLogin = ({ email, emailError, handleEmailChange, handleLogin }) => {
     return (
         <div className="absolute inset-0 flex items-center justify-center z-40 p-4 sm:p-6">
